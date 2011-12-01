@@ -79,10 +79,13 @@ set hlsearch
 " no wrap by default
 set nowrap
 
+" Backspace
+set backspace=eol,start,indent
+set whichwrap+=<,>,h,l
 
 " hide seach results
 nnoremap <leader><space> :nohlsearch<cr>
 
 " show CommandT
-map <leader>f :CommandT<cr>
+"map <leader>f :CommandT<cr>
 
