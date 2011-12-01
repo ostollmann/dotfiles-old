@@ -1,0 +1,18 @@
+NUM_STATES=$(simdp/util/num_states.sh $1)
+NUM_SIMS=$(simdp/util/num_sims.sh $1)
+NUM_ERRS=$(simdp/util/num_errors.sh $1)
+
+PERC_ERRS=$((100*NUM_ERRS/NUM_SIMS))
+
+AVG_REWARD=$(simdp/util/avg_reward.sh $1)
+
+echo "Extraction statistics:"
+echo ""
+echo " - number of states:        $NUM_STATES"
+echo ""
+echo " - number of simulations:   $NUM_SIMS"
+echo " - number of errors:        $NUM_ERRS"
+echo " - percentage errors:       $PERC_ERRS%"
+echo ""
+echo " - average reward:          $AVG_REWARD"
+
