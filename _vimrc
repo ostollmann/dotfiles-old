@@ -5,6 +5,7 @@ call pathogen#helptags()
 
 filetype plugin indent on
 syntax on
+set autoindent
 
 " map leader
 let mapleader=","
