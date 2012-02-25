@@ -1,6 +1,7 @@
 
-xterm*background: steelblue4
-xterm*foreground: grey88
+xterm*background: black
+xterm*foreground: grey
+xterm*highlightColor: red
 xterm*faceName: inconsolata
 xterm*faceSize: 11
 
