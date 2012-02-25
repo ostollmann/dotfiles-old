@@ -1,0 +1,12 @@
+
+xterm*background: steelblue4
+xterm*foreground: grey88
+xterm*faceName: inconsolata
+xterm*faceSize: 11
+
+
+Xft.dpi: 96
+Xft.antialias: true
+Xft.rgba: rgb
+Xft.hinting: true
+Xft.hintstyle: hintslight

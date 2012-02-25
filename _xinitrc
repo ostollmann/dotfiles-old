@@ -1,0 +1,9 @@
+
+xsetroot -cursor_name left_ptr
+xrdb -merge ~/.Xresources
+
+# apps
+xscreensaver -no-splash &
+
+
+xmonad
