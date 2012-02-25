@@ -106,3 +106,4 @@ promptl
 #export PS1="\w $Green>$Reset "
 
 
+export PATH=$PATH:~/.cabal/bin:~/.xmonad/bin
