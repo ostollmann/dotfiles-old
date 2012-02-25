@@ -11,7 +11,7 @@ set autoindent
 let mapleader=","
 
 set background=dark
-colorscheme default
+colorscheme peachpuff
 
 " make backup files
 set backup
