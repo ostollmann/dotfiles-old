@@ -2,8 +2,16 @@
 xsetroot -cursor_name left_ptr
 xrdb -merge ~/.Xresources
 
-# apps
+# composite
+# xcompmgr -n &
+
+# wallpaper
+xloadimage -onroot -fullscreen ~/data/media/images/archwp1.jpeg  &
+
+# screensaver
 xscreensaver -no-splash &
+
+
 
 
 xmonad

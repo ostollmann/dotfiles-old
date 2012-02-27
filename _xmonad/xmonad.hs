@@ -12,6 +12,7 @@ main = do
     xmproc <- spawnPipe "/usr/bin/xmobar /home/ost/.xmobarrc"
     xmonad $ defaultConfig {
           workspaces = workspaces'
+        , terminal = "urxvt"
         , borderWidth = 1
         , normalBorderColor = "#cccccc"
         , focusedBorderColor = "#cccccc"
