@@ -18,5 +18,5 @@ do
 done
 
 # compile command-t c library
-cd _vim/bundle/command-t
+cd _vim/bundle/wincent-Command-T-e9a861b/
 rake make
