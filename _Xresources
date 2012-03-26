@@ -3,10 +3,11 @@ xterm*background: black
 xterm*foreground: grey
 xterm*highlightColor: red
 xterm*faceName: inconsolata
-xterm*faceSize: 11
+xterm*faceSize: 10
 
 URxvt.depth:                32
-URxvt.transparent:          true
+URxvt.background:           rgba:1111/1111/1111/dddd
+! URxvt.transparent:          true
 URxvt.fading:               0
 ! URxvt.urgentOnBell:         true
 ! URxvt.visualBell:           true
@@ -35,7 +36,7 @@ URxvt.cursorUnderline:      false
 ! Pointer
 URxvt.pointerBlank:         true
 
-URxvt.font: xft:inconsolata:size=11
+URxvt.font: xft:inconsolata:size=10
 
 
 Xft.dpi:                    96

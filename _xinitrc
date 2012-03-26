@@ -6,12 +6,12 @@ xrdb -merge ~/.Xresources
 # xcompmgr -n &
 
 # wallpaper
-xloadimage -onroot -fullscreen ~/data/media/images/archwp1.jpeg  &
+feh --bg-scale /home/ost/media/images/wallpapers/beach1.jpg &
 
 # screensaver
 xscreensaver -no-splash &
 
 
-
+xcompmgr &
 
 xmonad
