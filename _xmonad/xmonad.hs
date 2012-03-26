@@ -33,7 +33,7 @@ main = do
         , ((mod1Mask, xK_r), spawn "dmenu_run")]
     
 -- workspaces' = ["2:main","2:web","3:mail","4:chat","5:media","6:misc","*","**","***"]
-workspaces' = ["1:main","2:dev","3:web","4:main","5:cal","6:chat","7:media","8:sys"]
+workspaces' = ["1:main","2:dev","3:web","4:mail","5:cal","6:chat","7:media","8:sys"]
 
 -- layout' = Tall 1 (2/3) (5/100) ||| Mirror $ Tall 1 (2/3) (5/100) ||| Full
 -- layout' = tiled ||| Mirror tiled ||| Full
