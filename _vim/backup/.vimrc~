@@ -5,12 +5,14 @@ call pathogen#helptags()
 
 filetype plugin indent on
 syntax on
+set autoindent
 
 " map leader
 let mapleader=","
 
 set background=dark
-colorscheme default
+
+"colorscheme peachpuff
 
 " make backup files
 set backup
@@ -87,5 +89,5 @@ set whichwrap+=<,>,h,l
 nnoremap <leader><space> :nohlsearch<cr>
 
 " show CommandT
-"map <leader>f :CommandT<cr>
+map <leader>f :CommandT<cr>
 
