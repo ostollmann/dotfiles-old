@@ -88,7 +88,7 @@ alias ds='cd ~/dev/MAIN/domain-sandwich/'
 
 alias ..='cd ..'
 
-alias webshare='python -m SimpleHTTPServer'
+alias webshare='python2 -m SimpleHTTPServer'
 alias gti='git'
 
 export EDITOR=vim
