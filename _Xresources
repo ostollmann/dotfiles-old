@@ -5,16 +5,22 @@ xterm*highlightColor: red
 xterm*faceName: inconsolata
 xterm*faceSize: 10
 
+
+! URxvt.background:           #ffffff
+! URxvt.foreground:           #000000
+URxvt.foreground:           #ffffd7
+
 URxvt.depth:                32
 URxvt.background:           rgba:1111/1111/1111/dddd
 ! URxvt.transparent:          true
 URxvt.fading:               0
 ! URxvt.urgentOnBell:         true
-! URxvt.visualBell:           true
+URxvt.visualBell:           true
 URxvt.loginShell:           false
 URxvt.saveLines:            50
 URxvt.internalBorder:       3
 URxvt.lineSpace:            0
+! URxvt.borderLess:           true
 
 ! Fonts
 URxvt.allow_bold:           true
@@ -36,7 +42,7 @@ URxvt.cursorUnderline:      false
 ! Pointer
 URxvt.pointerBlank:         true
 
-URxvt.font: xft:inconsolata:size=10
+URxvt.font: xft:inconsolata:size=9
 
 
 Xft.dpi:                    96
