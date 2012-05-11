@@ -2,16 +2,13 @@
 xsetroot -cursor_name left_ptr
 xrdb -merge ~/.Xresources
 
-# composite
-# xcompmgr -n &
-
 # wallpaper
-feh --bg-scale /home/ost/media/images/wallpapers/beach1.jpg &
+feh --bg-scale `cat /home/ost/.x220-config/BACKGROUND` &
 
 # screensaver
 xscreensaver -no-splash &
 
-
+# compiz
 xcompmgr &
 
 xmonad
