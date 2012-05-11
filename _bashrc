@@ -60,6 +60,7 @@ alias webshare='python -m SimpleHTTPServer'
 alias gti='git'
 
 export EDITOR=vim
+export BROWSER=/usr/bin/chromium
 
 export PATH=$PATH:/home/ost/dev/LIB/gae/
 export PATH=$PATH:/home/ost/.cabal/bin
