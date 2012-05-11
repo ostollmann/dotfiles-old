@@ -12,7 +12,8 @@ let mapleader=","
 
 set background=dark
 
-colorscheme peachpuff
+" colorscheme peachpuff
+colorscheme slate
 
 " make backup files
 set backup
