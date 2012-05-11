@@ -1,3 +1,7 @@
 _vim/backup/*
 _vim/tmp/*
 _vim/.netrwhist
+_vim/backup/
+_xmonad/xmonad-*
+_xmonad/xmonad.o
+_xmonad/xmonad.hi
