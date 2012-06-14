@@ -1,6 +1,15 @@
 
 xsetroot -cursor_name left_ptr
+
+xmodmap .Xmodmap
+
 xrdb -merge ~/.Xresources
+
+if [ -f $HOME/.Xmodmap ]; then
+    /usr/bin/xmodmap $HOME/.Xmodmap
+fi
+
+export GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/home/ost/.gtkrc-2.0
 
 # wallpaper
 feh --bg-scale `cat /home/ost/.x220-config/BACKGROUND` &

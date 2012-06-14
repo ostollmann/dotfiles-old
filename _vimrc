@@ -7,13 +7,17 @@ filetype plugin indent on
 syntax on
 set autoindent
 
+" allow hidding of modified buffers
+set hidden
+
 " map leader
 let mapleader=","
 
 set background=dark
 
 " colorscheme peachpuff
-colorscheme slate
+colorscheme default
+" colorscheme morning
 
 " make backup files
 set backup
@@ -92,3 +96,14 @@ nnoremap <leader><space> :nohlsearch<cr>
 " show CommandT
 map <leader>f :CommandT<cr>
 
+set tags=/home/ost/.ctags
+
+" Python mode settings
+
+let g:pymode_folding = 0
+let g:pymode_breakpoint = 0
+
+let g:pymode_lint_checker = "pylint"
+let g:pymode_lint_ignore = "C0324"
+
+let g:pymode_syntax_slow_sync = 1

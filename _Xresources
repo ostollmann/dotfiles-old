@@ -6,12 +6,15 @@ xterm*faceName: inconsolata
 xterm*faceSize: 10
 
 
-! URxvt.background:           #ffffff
-! URxvt.foreground:           #000000
+! Dark on White
+! URxvt.foreground:           #101010
+! URxvt.background:           #E6DFCD
+
+! Dark & Transparent
 URxvt.foreground:           #ffffd7
+URxvt.background:           rgba:1111/1111/1111/dddd
 
 URxvt.depth:                32
-URxvt.background:           rgba:1111/1111/1111/dddd
 ! URxvt.transparent:          true
 URxvt.fading:               0
 ! URxvt.urgentOnBell:         true

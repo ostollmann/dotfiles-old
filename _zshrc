@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="wezm"
+ZSH_THEME="ost"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -29,14 +29,16 @@ ZSH_THEME="wezm"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(git archlinux pip)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/home/ost/bin:/home/ost/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/bin/core_perl:/home/ost/.cabal/bin:/home/ost/.cabal/bin:/home/ost/.xmonad/bin:/home/ost/.cabal/bin:/home/ost/.cabal/bin:/home/ost/.xmonad/bin
+export PATH=$PATH:/home/ost/bin:/home/ost/lib:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/bin/core_perl:/home/ost/.cabal/bin:/home/ost/.cabal/bin:/home/ost/.xmonad/bin:/home/ost/.cabal/bin:/home/ost/.cabal/bin:/home/ost/.xmonad/bin
+export PYTHONPATH=$PYTHONPATH:/home/ost/bin:/home/ost/lib
 
 export VIMRUNTIME=/usr/share/vim/vim73/
+
 # Check for an interactive session
 [ -z "$PS1" ] && return
 
@@ -65,6 +67,7 @@ function extract()      # Handy Extract Program.
 
 # alias ls='ls -lap --color=auto'
 alias v='vim'
+alias claer='clear'
 
 alias du='du -kh'
 alias df='df -kTh'
@@ -79,7 +82,8 @@ alias t3='tree -L 3'
 alias t4='tree -L 4'
 alias tl='tree -L'
 
-alias sl='ls -AhgG --color=auto'
+#alias sl='ls -AhgG --color=auto'
+#alias ls='ls -h --color=auto'
 
 alias dev='cd ~/dev'
 alias tmp='cd ~/tmp'
