@@ -69,7 +69,7 @@ function extract()      # Handy Extract Program.
 alias v='vim'
 alias claer='clear'
 
-alias du='du -kh'
+#alias du='du -kh'
 alias df='df -kTh'
 
 alias od='od -x'
